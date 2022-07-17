@@ -1,0 +1,129 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #87509c;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  margin: 0px 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+}
+
+.nav li:hover {
+  background-color: #643a79;
+}
+
+.box1 {
+  text-align: center;
+}
+
+.service {
+  background-color: #17c2a4;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+hr {
+  opacity: 0.3;
+  width: 90px;
+  border: none;
+  border-top: 5px solid #333;
+}
+
+.block1-items {
+  display: flex;
+}
+
+.block1-items div {
+  padding: 0px 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.block2 {
+  background-color: #e7f1f8;
+  padding: 20px 0px;
+}
+
+.block2-items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  background-color: lightgray;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.block3 h2 {
+  color: black;
+}
+.block3 h2 span {
+  color: red;
+}
+.block3 p {
+  color: black;
+}
+
+footer {
+  background-color: #344b8e;
+  padding: 10px 0px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 10px 20px;
+  color: white;
+}
+
+footer li:hover {
+  color: #30bae7;
+}
+
+/*# sourceMappingURL=style.css.map */

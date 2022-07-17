@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.txt-ctr {
+  text-align: center;
+}
+
+header {
+  background-color: #87509c;
+  
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  margin: 0px 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+}
+
+.nav li:hover {
+  background-color: #643a79;
+}
+
+.box1 {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.h3-box1 {
+  font-size: 42px;
+  color: white;
+  width: 59%;
+  margin: 0 auto;
+}
+
+.btn-header {
+  margin: 50px 0px;
+  background-color: #eb7d4b;
+  padding: 28px 80px;
+  border: 1px solid #eb7d4b;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-header:active {
+  border: 1px solid black;
+}
+
+.service {
+  background-color: #17c2a4;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.h3-service {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+hr {
+  opacity: 0.3;
+  width: 90px;
+  border: none;
+  border-top: 5px solid #333;
+}
+
+.block1-items {
+  display: flex;
+}
+
+.block1-items div {
+  padding: 0px 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+.block2 {
+  background-color: #e7f1f8;
+  padding: 20px 0px;
+}
+
+.h3-block2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.block2-items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  background-color: lightgray;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+h2 {
+  color: white;
+
+}
+
+p {
+  color: white;
+}
+
+.block3 h2 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #3c4761;
+}
+.block3 h2 span {
+  color: red;
+}
+.block3 p {
+  color: black;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills div div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-weight: 300;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.skills-border1 {
+  border:10px solid lightskyblue;
+}
+
+.skills-border2 {
+  border:10px solid #d74680;
+}
+
+.skills-border3 {
+  border:10px solid #15c7a8;
+}
+
+.skills-border4 {
+  border:10px solid #eb7d4b;
+}
+
+.block4 {
+  background-color: #ffdd99;
+  padding: 10px 0px;
+}
+
+.block4 h2 {
+  color: black;
+}
+
+.block4 p {
+  color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+
+}
+
+.block4-pc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.links div {
+  background-color: #ebc985;
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.links div:hover {
+  background-color: white;
+}
+
+.block5 {
+  background-color: #d74680;
+  padding: 30px 0px;
+}
+
+.circle-gray {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  border-radius: 100%;
+}
+
+.block5-users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.block5-items {
+  display: flex;
+  width: 30%;
+  
+}
+
+.block6 {
+  background-color: #3c5499;
+  padding: 30px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  margin-top: 50px;
+}
+
+input {
+  
+}
+
+
+footer {
+  background-color: #344b8e;
+  padding: 10px 0px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 10px 20px;
+  color: white;
+}
+
+footer li:hover {
+  color: #30bae7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  width: 300px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+}
+
+
+textarea {
+  width: 300px;
+  height: 150px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
