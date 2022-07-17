@@ -99,6 +99,7 @@ h3 {
 .block2 {
   background-color: #e7f1f8;
   padding: 20px 0px;
+  
 }
 
 .h3-block2 {
@@ -110,6 +111,11 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 50px;
+}
+
+.block2 p {
+  color: black;
+  text-align: center;
 }
 
 .item {
